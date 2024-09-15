@@ -11,3 +11,9 @@ This project demonstrates a simple battery charging animation using HTML and CSS
 ## Technologies Used
 - HTML
 - CSS (Keyframes animation)
+
+## Demonstration
+
+https://github.com/user-attachments/assets/e963f67b-864e-4fa4-b2b6-bfa48c744863
+
+
