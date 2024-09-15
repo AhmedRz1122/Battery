@@ -1,0 +1,64 @@
+/* body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
+
+.lid{
+    height: 11px;
+    width: 51px;
+    border: 2px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: relative;
+    left: 23px;
+}
+
+.Battery{
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 12px;
+    position: relative; /* Add this line */
+}
+
+.charging{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    animation: charge 3s ease-in infinite;
+    height: 10%; /* Initial height */
+    background: chocolate; /* Initial background color */
+}
+
+@keyframes charge {
+    0%{
+        height: 10%;
+        background: chocolate;
+    }
+    20%{
+        height: 20%;
+        background: red;
+    }
+    40%{
+        height: 40%;
+        background: chartreuse;
+    }
+    60%{
+        height: 60%;
+        background: cornflowerblue;
+    }
+    80%{
+        height: 80%;
+        background: rgb(207, 220, 20);
+    }
+    100%{
+        height: 100%;
+        background: blue;
+    }
+}
+
+.heading{
+    font-size: 24px;
+}
